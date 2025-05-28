@@ -4,3 +4,6 @@ version = "0.1.0"
 edition = "2024"
 
 [dependencies]
+tokio = {version = "1.45.1", features = ["default", "rt", "rt-multi-thread", "macros"] }
+reqwest = {version = "0.12.16", features = ["json"]}
+scraper = {version = "0.23.1"}
